@@ -1,0 +1,87 @@
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# =========================
+# Maven
+# =========================
+target/
+*.class
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Maven Wrapper
+!/.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =========================
+# Java
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# SonarQube
+# =========================
+.scannerwork/
+.sonar/
+
+# =========================
+# JaCoCo
+# =========================
+jacoco.exec
+*.exec
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.swp
+*~
